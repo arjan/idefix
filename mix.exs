@@ -5,7 +5,7 @@ defmodule Idefix.MixProject do
     [
       app: :idefix,
       version: File.read!("VERSION"),
-      elixir: "~> 1.8",
+      elixir: "~> 1.10",
       description: description(),
       package: package(),
       start_permanent: Mix.env() == :prod,
